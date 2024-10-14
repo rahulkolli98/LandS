@@ -22,6 +22,7 @@ body{
     height: 100vh;
 }
 
+
 .wholebody{
     display: flex;
     justify-content: center;
@@ -29,7 +30,48 @@ body{
     min-height: 110vh;
     background: rgba(35, 35, 35, 0.5);
 }
+nav{
+    background: none ;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
 
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Nav scroll background using js*/
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgb(59, 54, 79);
+
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__menu a{
+    font-size: 1rem;
+    transition: all 500ms ease;
+}
+
+.nav__menu a:hover{
+    color: var(--color-bg2);
+}
+/*----------------
 .nav{
     position: fixed;
     top: 0;
@@ -73,7 +115,7 @@ body{
 .nav-menu-btn{
     display: none;
 }
-
+*/
 
 .container{
     background-color: #fff;

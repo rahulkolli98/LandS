@@ -1,0 +1,9 @@
+.about__us{
+    margin-top: 3rem;
+}
+
+.about__us-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
